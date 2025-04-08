@@ -16,8 +16,9 @@ static void Printing() {
 	commonCode();
 	System.out.println("it can have the ability to print");
 }
-//from java 1.9 we can use private acces modifier to represent same code in all the methods
+//from java 1.9 we can use private access modifier to represent same code in all the methods
 private static void commonCode() {
 	System.out.println("CommonCode");
 }
+
 }
