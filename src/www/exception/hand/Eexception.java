@@ -171,6 +171,10 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 
 */
 
+
+//mandatory blocks
+
+//1)if try is there finally or catch should be there else error
 package www.exception.hand;
 
 public class Eexception {
@@ -192,3 +196,5 @@ public class Eexception {
 	}
 
 }
+
+
