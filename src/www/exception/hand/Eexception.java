@@ -171,7 +171,7 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 
 */
 
-
+/*
 //mandatory blocks
 
 //1)if try is there finally or catch should be there else error
@@ -197,4 +197,52 @@ public class Eexception {
 
 }
 
+output=Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert "Finally" to complete TryStatement
+
+	at www.exception.hand.Eexception.main(Eexception.java:189)
+
+
+*/
+
+
+package www.exception.hand;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class Eexception {
+
+	public static void main(String[] args) throws FileNotFoundException, IOException{
+		System.out.println("Program Started execution");
+		int fnumber=9;
+		int snumber=0;
+		int result = 0;
+		
+		
+		File file=new File("F:/resume-akashrr.docx");
+		FileInputStream fis=new FileInputStream(file);
+		System.out.println(fis);
+		try {
+			result=fnumber/snumber;
+			}
+			
+			catch (ArithmeticException ae) {
+	            System.out.println(ae.toString());
+	            throw ae;
+	        }
+			finally {
+				System.out.println("Akash is a good boy");
+			}
+		
+		
+		
+
+	  System.out.println("output is : "+result);
+	  System.out.println("Program excecution ended");
+	}
+
+}
 
