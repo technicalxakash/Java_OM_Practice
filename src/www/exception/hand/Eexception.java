@@ -105,7 +105,7 @@ output is : 0
 Program excecution ended
 
 
-*/
+
 //finally
 package www.exception.hand;
 
@@ -126,6 +126,66 @@ public class Eexception {
 		finally {
 			System.out.println("Akash is a good boy");
 		}
+
+	  System.out.println("output is : "+result);
+	  System.out.println("Program excecution ended");
+	}
+
+}
+*/
+
+//throw
+/*
+package www.exception.hand;
+
+public class Eexception {
+
+	public static void main(String[] args) {
+		System.out.println("Program Started execution");
+		int fnumber=9;
+		int snumber=0;
+		int result = 0;
+		try {
+		result=fnumber/snumber;
+		}
+		
+		catch (ArithmeticException ae) {
+            System.out.println(ae.toString());
+            throw ae;
+        }
+		finally {
+			System.out.println("Akash is a good boy");
+		}
+
+	  System.out.println("output is : "+result);
+	  System.out.println("Program excecution ended");
+	}
+
+}
+
+Program Started execution
+java.lang.ArithmeticException: / by zero
+Akash is a good boy
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at www.exception.hand.Eexception.main(Eexception.java:148)
+
+*/
+
+package www.exception.hand;
+
+public class Eexception {
+
+	public static void main(String[] args) {
+		System.out.println("Program Started execution");
+		int fnumber=9;
+		int snumber=0;
+		int result = 0;
+		try {
+		result=fnumber/snumber;
+		}
+		
+		
+		
 
 	  System.out.println("output is : "+result);
 	  System.out.println("Program excecution ended");
