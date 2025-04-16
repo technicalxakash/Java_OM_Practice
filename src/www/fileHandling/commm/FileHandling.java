@@ -4,6 +4,7 @@ package www.fileHandling.commm;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 
 public class FileHandling {
 
@@ -52,9 +53,38 @@ public class FileHandling {
      System.out.println(f.createNewFile());
      System.out.println(f.delete());
      System.out.println(f.exists());
-     */
+    
 		
 		
+	//creating one  folders
+		 File f=new File("./resume11.txt");
+		 System.out.println(f.mkdir());
+		
+		 //Creating multiple folders
+		 File f=new File("./resources/binnnnnn/resume11.txt");
+		 System.out.println(f.mkdirs());
+		
+		
+		//printing each folder
+		File f=new File("C:\\Users\\User\\eclipse-workspace\\AkashHome");
+		System.out.println(Arrays.toString(f.list()));
+		
+		//output=[.classpath, .git, .project, .settings, bin, README.md, resources, src]
+		  
+		
+		File f=new File("C:\\Users\\User\\eclipse-workspace\\AkashHome");
+		System.out.println(Arrays.toString(f.listFiles()));
+		
+		
+		output=[C:\Users\User\eclipse-workspace\AkashHome\.classpath, C:\Users\User\eclipse-workspace\AkashHome\.git, 
+		        C:\Users\User\eclipse-workspace\AkashHome\.project, C:\Users\User\eclipse-workspace\AkashHome\.settings, 
+		        C:\Users\User\eclipse-workspace\AkashHome\bin, C:\Users\User\eclipse-workspace\AkashHome\README.md,
+		        C:\Users\User\eclipse-workspace\AkashHome\resources, C:\Users\User\eclipse-workspace\AkashHome\src]
+		        		
+		        		  */
+		
+		File f=new File("C:\\Users\\User\\eclipse-workspace\\AkashHome");
+		System.out.println(f.getName());
 		
 	}
 
