@@ -9,8 +9,12 @@ public class FileHandling {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-      File f=new File("D:\\TestFiles\\resume1.txt");
-      System.out.println(f.createNewFile());
+      File f=new File("D:\\TestFiles\\resume.txt");
+      //System.out.println(f.createNewFile());
+      
+      
+      //doing deletion
+      System.out.println(f.delete());
       
 	}
 
