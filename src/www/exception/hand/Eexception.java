@@ -205,7 +205,7 @@ output=Exception in thread "main" java.lang.Error: Unresolved compilation proble
 
 */
 
-
+//throws
 package www.exception.hand;
 
 import java.io.File;
