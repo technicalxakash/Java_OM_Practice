@@ -1,0 +1,4 @@
+Hi, I'm Akash R
+Passionate about building scalable web applications and intelligent solutions
+Experienced in Django, FastAPI, React.js, Next.js, PostgreSQL, and AWS
+Exploring AI/ML, Cloud Infrastructure

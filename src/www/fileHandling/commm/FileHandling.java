@@ -81,10 +81,15 @@ public class FileHandling {
 		        C:\Users\User\eclipse-workspace\AkashHome\bin, C:\Users\User\eclipse-workspace\AkashHome\README.md,
 		        C:\Users\User\eclipse-workspace\AkashHome\resources, C:\Users\User\eclipse-workspace\AkashHome\src]
 		        		
-		        		  */
+		        		
 		
 		File f=new File("C:\\Users\\User\\eclipse-workspace\\AkashHome");
 		System.out.println(f.getName());
+		
+		output=AkashHome
+		  */
+		
+		
 		
 	}
 
