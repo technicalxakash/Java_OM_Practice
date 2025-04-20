@@ -1,4 +1,7 @@
 package www.interview.commm;
+
+
+
 /*
 public class Test1 {
 
@@ -21,7 +24,7 @@ public class Test1 {
     }
 }
 
-*/
+
 public class Test1 {
     public static void main(String[] args) {
         int i = 0;
@@ -31,5 +34,9 @@ public class Test1 {
         }
     }
 }
+
+
+*/
+
 
 
