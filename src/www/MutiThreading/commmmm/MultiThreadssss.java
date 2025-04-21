@@ -354,7 +354,6 @@ public class MultiThreadssss {
 		
 //		e1.start();
 //		e1.join();
-//		
 //		m1.start();
 		e1.start();
 		
