@@ -1,5 +1,6 @@
 package CollectionsFramework.www;
 import java.util.ArrayList;
+import java.util.Collections;
 public class AarrayLiist {
 
 	public static void main(String[] args) {
@@ -84,9 +85,12 @@ public class AarrayLiist {
 			      */
 				
 			      //includes the first index and excludes the last index
-			      System.out.println( al1.subList(2, 6));
+			      //System.out.println( al1.subList(2, 6));//[2, 3, 4, 5]
 			      
-			    
+			      
+			      System.out.println(al1);  
+			   Collections.reverse(al1);
+			   System.out.println(al1);
 			}
 
 			
