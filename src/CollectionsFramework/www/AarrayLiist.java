@@ -91,6 +91,10 @@ public class AarrayLiist {
 			      System.out.println(al1);  
 			   Collections.reverse(al1);
 			   System.out.println(al1);
+			   
+			   
+			   
+			
 			}
 
 			

@@ -51,12 +51,12 @@ public class ArrayyDequque {
 		//removal=poll,pollFirst,pollLast
 		
 		
-		System.out.println(ad);
-		System.out.println(ad.poll());
-		System.out.println(ad);
-		System.out.println(ad.pollFirst());
-		System.out.println(ad);
-		System.out.println(ad.pollLast());
+//		System.out.println(ad);
+//		System.out.println(ad.poll());
+//		System.out.println(ad);
+//		System.out.println(ad.pollFirst());
+//		System.out.println(ad);
+//		System.out.println(ad.pollLast());
 		
 		
 		//		[5, 2, 1, 4, 8, 4]
@@ -65,6 +65,9 @@ public class ArrayyDequque {
 		//				2
 		//				[1, 4, 8, 4]
 		//				4
+		
+		
+		
 
 	}
 
