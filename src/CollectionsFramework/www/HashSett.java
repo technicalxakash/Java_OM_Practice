@@ -12,7 +12,7 @@ public class HashSett {
 		ad.add(8);
 		ad.add(4);
 		
-		System.out.println(ad);//[1, 2, 4, 5, 8] it does not allow duplicates
+		System.out.println(ad);//[1, 2, 4, 5, 8] it does not allow duplicates ////it will not maintains the order of insertions
 		
 		System.out.println(Arrays.toString(ad.toArray()));
 		
@@ -24,6 +24,7 @@ public class HashSett {
 		al11.add(72);
 		al11.add(53);
 		al11.add(4);
-		System.out.println(al11);
+		System.out.println(al11);//[11, 2, 32, 72, 53, 4]//it maintains the order of insertions
+		
 	}
 }
