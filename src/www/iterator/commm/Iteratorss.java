@@ -1,4 +1,3 @@
-
 //1)Enumeration=interface=introduced to iterating the legacy collection objects=java 1.0
 //2)iterators=//iterators are the interfaces
 //introduced to iterating the collections objects
