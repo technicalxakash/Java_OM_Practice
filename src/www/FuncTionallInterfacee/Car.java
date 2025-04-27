@@ -15,7 +15,7 @@ package www.FuncTionallInterfacee;
 //	  
 //	  
 //  }
-//  private void breaks() {
+//  static void breaks() {
 //	  
 //	  
 //  }
