@@ -1,6 +1,7 @@
 package www.File.Handling.commm;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Arrays;
 
@@ -23,13 +24,19 @@ public class FIleHandling {
 //		File f=new File("./Resources/Test/");
 //		System.out.println(f.mkdirs());
 		
-		File f=new File("F:\\Testfiles");
-          System.out.println(Arrays.toString( f.list()));
-          System.out.println(Arrays.toString( f.listFiles()));
-          
-          
-           
 		
+//		File f=new File("F:\\Testfiles");
+//          System.out.println(Arrays.toString( f.list()));
+//          System.out.println(Arrays.toString( f.listFiles()));
+          
+          
+			File file =new File("./sample.txt/");
+//			if(!file.exists()) 
+//				file.createNewFile();
+			
+		FileInputStream fis=new FileInputStream(file);
+		
+		fis.read();
 		
 		
 	}

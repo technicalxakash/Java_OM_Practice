@@ -1,0 +1,6 @@
+I'm a passionate Full Stack Developer 
+
+ specializing in building robust web applications with a strong focus on back-end technologies. 
+ My journey in programming started with a curiosity about how software can solve real-world problems,
+  and has evolved into a professional path
+   where I combine technical knowledge with creative problem-solving.
